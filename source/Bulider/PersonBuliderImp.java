@@ -1,18 +1,20 @@
+package Bulider;
+
 class PersonBuliderImp implements PersonBulider{
     private String name;
     private int age = 0;
     private String addres = "Krakow";
 
-    public PersonBuliderImp(String name){
+    PersonBuliderImp(String name){
         this.name = name;
     }
 
-    public PersonBuliderImp setAge(int age){
+    PersonBuliderImp setAge(int age){
         this.age = age;
         return this;
     }
 
-    public PersonBuliderImp setAddres(String addres){
+    PersonBuliderImp setAddres(String addres){
         this.addres = addres;
         return this;
     }

@@ -1,3 +1,5 @@
+package Adapter;
+
 class SquarePegAdapter extends RoundPeg{
     private SquarePeg squarePeg;
 
@@ -7,6 +9,6 @@ class SquarePegAdapter extends RoundPeg{
 
     @Override
     public float getRadius(){
-        return (this.squarePeg.getWidth()/2.0f) * (float) Math.sqrt(2.0);
+        return (this.squarePeg.getWidth() * (float) Math.sqrt(2.0)) / 2.0f;
     }
 }

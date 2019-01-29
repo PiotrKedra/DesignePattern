@@ -1,11 +1,13 @@
+package Adapter;
+
 class SquarePeg{
-    private float width = 10;
+    private float width;
 
     SquarePeg(float width){
         this.width = width;
     }
 
-    public float getWidth(){
+    float getWidth(){
         return this.width;
     }
 }

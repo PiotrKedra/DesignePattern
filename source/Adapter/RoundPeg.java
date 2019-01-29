@@ -1,5 +1,9 @@
+package Adapter;
+
 class RoundPeg{
     private float radius;
+
+    RoundPeg(){}
 
     RoundPeg(float radius){
         this.radius = radius;

@@ -1,11 +1,13 @@
+package Adapter;
+
 class RoundHole{
-    private float radius = 10;
+    private float radius;
 
     RoundHole(float radius){
         this.radius = radius;
     }
 
-    public boolean fits(RoundPeg peg){
+    boolean fits(RoundPeg peg){
         return this.radius >= peg.getRadius();
     }
 }
