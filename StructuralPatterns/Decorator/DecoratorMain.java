@@ -64,7 +64,7 @@ public class DecoratorMain {
             return super.readData() + ": data decrypted";
         }
     }
-    
+
     // What is great in decorator that we cen connect those all decorates with each other
     // so in this example we can first encrypt and then compress same data
     static class CompressionDecorator extends DataSourceDecorator{
