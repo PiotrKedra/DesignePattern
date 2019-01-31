@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Composite {
 
-    // Interface for out class
+    // Interface for our class
     interface Thing{
         int getCost();
         String getName();
